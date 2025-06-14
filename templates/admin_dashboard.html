@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+     <title>Admin Dashboard</title>
+</head>
+
+<body>
+     <header>
+         <h1>Admin Dashboard</h1>
+         </header>
+
+     <!-- 🔗 Link Section -->
+     <nav>
+         <a href="/admin/history">🔄 View Order History</a> |
+         <!-- <a href="/admin/stats">📈 View Food Order Stats</a> -->
+         </nav>
+
+     <h2>Today's Orders</h2>
+     <ul>
+       {% set grand_total = 0 %}
+      {% for order in orders %}
+  <div>
+    <strong>Name:</strong> {{ order['name'] }}<br>
+    <strong>Roll No:</strong> {{ order['roll'] }}<br>
+    <strong>Items:</strong> {{ order['items'] | join(', ') }}<br>
+    <strong>Pickup Time:</strong> {{ order['pickup_time'] }}<br>
+    <strong>Time Placed:</strong> {{ order['timestamp'] }}<br>
+    <hr>
+  </div>
+{% endfor %}
+
+         </ul>
+
+     <h3>🧾 Total Sales Today: ₹{{ grand_total }}</h3>
+</body>
+
+</html>

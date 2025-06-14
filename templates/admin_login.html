@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+<head><link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}"></head>
+<body style="background-color: black; color: white;">
+    <header><h1 style="color: #00aaff;">Admin Login</h1></header>
+    <form method="POST" action="/admin/dashboard">
+        <input type="password" name="password" placeholder="Enter Admin Password"><br><br>
+        <input type="submit" value="Login">
+    </form>
+</body>
+</html>

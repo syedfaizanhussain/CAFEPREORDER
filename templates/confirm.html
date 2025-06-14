@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head><link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}"></head>
+<body>
+    <header><h1>Order Confirmed!</h1></header>
+    <h2>Thank you {{ single_order.name }} ({{ single_order.roll }})</h2>
+    <p>Your food will be ready at: <strong>{{ single_order.pickup_time }}</strong></p>
+    <h3>You ordered:</h3>
+    <ul>
+        {% for item in single_order["items"] %}
+        <li>{{ item }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
