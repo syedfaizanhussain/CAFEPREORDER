@@ -190,192 +190,32 @@
     },
     {
         "name": "sufiyan",
+        "name": "rehmath",
+
         "roll": "345",
         "items": [
-            "Chai",
-            "Colddrinks"
+            "Burger",
+            "Chai"
         ],
-        "pickup_time": "14:33",
-        "timestamp": "2025-06-14 13:32:31"
+        "pickup_time": "15:00",
+        "timestamp": "2025-06-15 10:58:49",
+        "total_price": 70
     },
     {
-        "name": "syed faizan",
-        "roll": "006",
+        "name": "syed faizan ",
+        "roll": "345",
         "items": [
             "Pasta",
-            "Burger"
-        ],
-        "pickup_time": "15:22",
-        "timestamp": "2025-06-14 13:22:43"
-    },
-    {
-        "name": "erica",
-        "roll": "006",
-        "items": [
             "Fries",
-            "Noodles"
-        ],
-        "pickup_time": "15:22",
-        "timestamp": "2025-06-14 13:21:19"
-    },
-    {
-        "name": "tyty",
-        "roll": "123",
-        "items": [
-            "Pizza"
-        ],
-        "pickup_time": "15:04",
-        "timestamp": "2025-06-14 13:02:49"
-    },
-    {
-        "name": "faizan",
-        "roll": "059",
-        "items": [
-            "Chai",
-            "Fries"
-        ],
-        "pickup_time": "13:35",
-        "timestamp": "2025-06-14 12:34:44"
-    },
-    {
-        "name": "faizan",
-        "roll": "23",
-        "items": [
-            "Pizza"
-        ],
-        "pickup_time": "14:16",
-        "timestamp": "2025-06-14 12:14:19"
-    },
-    {
-        "name": "titumama",
-        "roll": "567",
-        "items": [
-            "Pasta",
-            "Idli",
-            "Vada Pav"
-        ],
-        "pickup_time": "17:12",
-        "total": 120,
-        "timestamp": "2025-06-14 12:11:06"
-    },
-    {
-        "name": "aliza",
-        "roll": "678",
-        "items": [
-            "Veg Puff",
-            "Vada Pav"
-        ],
-        "pickup_time": "17:00",
-        "total": 35,
-        "timestamp": "2025-06-14 11:59:17"
-    },
-    {
-        "name": "aliza",
-        "roll": "678",
-        "items": [
-            "Veg Puff",
-            "Vada Pav"
-        ],
-        "pickup_time": "17:00",
-        "total": 35,
-        "timestamp": "2025-06-14 11:56:13"
-    },
-    {
-        "name": "titu",
-        "roll": "2467",
-        "items": [
-            "Pizza"
-        ],
-        "pickup_time": "14:53",
-        "total": 80,
-        "timestamp": "2025-06-14 11:51:33"
-    },
-    {
-        "name": "rizwan",
-        "roll": "059",
-        "items": [
-            "Chai",
-            "Sandwich",
-            "Momos"
-        ],
-        "pickup_time": "13:11",
-        "total": 90,
-        "timestamp": "2025-06-14 11:39:43"
-    },
-    {
-        "name": "faizan",
-        "roll": "006",
-        "items": [
-            "Pasta",
-            "Sandwich"
-        ],
-        "pickup_time": "16:15",
-        "total": 105,
-        "timestamp": "2025-06-14 01:13:38"
-    },
-    {
-        "name": "erica",
-        "roll": "23",
-        "items": [
-            "Chai",
-            "Colddrinks",
-            "Ice Cream",
-            "Biryani",
             "Egg Puff"
         ],
-        "pickup_time": "14:10",
-        "total": 165,
-        "timestamp": "2025-06-14 01:04:53"
+        "pickup_time": "13:44",
+        "timestamp": "2025-06-15 10:41:49"
     },
     {
-        "name": "rehmath",
-        "roll": "045",
+        "name": "syett ",
+        "roll": "234u84",
         "items": [
-            "Burger",
-            "Maggi",
-            "Biryani",
-            "Idli"
-        ],
-        "pickup_time": "14:56",
-        "timestamp": "2025-06-14 00:54:24"
-    },
-    {
-        "name": "hashim",
-        "roll": "96",
-        "items": [
-            "Pizza",
-            "Pasta",
-            "Chai",
-            "Colddrinks"
-        ],
-        "pickup_time": "12:34",
-        "timestamp": "2025-06-14 00:34:43"
-    },
-    {
-        "name": "zubair",
-        "roll": "78",
-        "items": [
-            "Pasta",
-            "Fries"
-        ],
-        "pickup_time": "14:30",
-        "timestamp": "2025-06-14 00:29:11"
-    },
-    {
-        "name": "sajid",
-        "roll": "245",
-        "items": [
-            "Pizza",
-            "Pasta"
-        ],
-        "pickup_time": "16:30",
-        "timestamp": "2025-06-14 00:28:25"
-    },
-    {
-        "name": "sajid",
-        "roll": "245",
-        "items": [
-            "Pizza",
             "Pasta"
         ],
         "pickup_time": "16:30",
@@ -523,5 +363,8 @@
         ],
         "pickup_time": "12:20",
         "timestamp": "2025-06-13 16:15:44"
+=======
+        "pickup_time": "13:55",
+        "timestamp": "2025-06-15 09:51:44"
     }
 ]

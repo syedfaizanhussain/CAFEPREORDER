@@ -2,7 +2,7 @@ from flask import Flask, render_template, request, redirect, url_for
 import json
 # import matplotlib.pyplot as plt
 import os
-from datetime import datetime
+from datetime import datetime 
 # import sqlite3
 
 
@@ -80,21 +80,66 @@ def index():
 
 
 
+# @app.route('/confirm', methods=['POST'])
+# def confirm():
+#     name = request.form['name']
+#     roll = request.form['roll']
+#     items = request.form.getlist('items')
+#     pickup_time = request.form['pickup_time']
+#     order = {
+#         'name': name,
+#         'roll': roll,
+#         'items': items,
+#         'pickup_time': pickup_time,
+#         'timestamp': datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+#     }
+#     save_order(order)
+#     return render_template('confirm.html', single_order=order)
+
 @app.route('/confirm', methods=['POST'])
 def confirm():
-    name = request.form['name']
-    roll = request.form['roll']
-    items = request.form.getlist('items')
-    pickup_time = request.form['pickup_time']
-    order = {
-        'name': name,
-        'roll': roll,
-        'items': items,
-        'pickup_time': pickup_time,
-        'timestamp': datetime.now().strftime('%Y-%m-%d %H:%M:%S')
-    }
-    save_order(order)
-    return render_template('confirm.html', single_order=order)
+ name = request.form['name']
+ roll = request.form['roll']
+ items = request.form.getlist('items')
+ pickup_time = request.form['pickup_time']
+
+ prices = {
+  "Pizza": 80,
+  "Pasta": 70,
+  "Burger": 60,
+  "Chai": 10,
+  "Colddrinks": 20,
+  "Ice Cream": 30,
+  "Fries": 40,
+  "Noodles": 50,
+  "Sandwich": 35,
+  "Momos": 45,
+  "Maggi": 25,
+  "Biryani": 90,
+  "Paneer Roll": 55,
+  "Egg Puff": 15,
+  "Veg Puff": 15,
+  "Samosa": 10,
+  "Spring Roll": 50,
+  "Dosa": 40,
+  "Idli": 30,
+  "Vada Pav": 20
+ }
+
+ total_price = sum(prices.get(item, 0) for item in items)
+
+ order = {
+ 'name': name,
+ 'roll': roll,
+ 'items': items,
+ 'pickup_time': pickup_time,
+ 'timestamp': datetime.now().strftime('%Y-%m-%d %H:%M:%S'),
+ 'total_price': total_price
+ }
+
+ save_order(order)
+ return render_template('confirm.html', single_order=order)
+
 # @app.route('/confirm', methods=['POST'])
 # def confirm():
 #     name = request.form['name']
