@@ -1,5 +1,6 @@
 [
     {
+<<<<<<< HEAD
         "name": "Syed hussain",
         "roll": "160923",
         "items": [
@@ -36,10 +37,206 @@
     {
         "name": "rizwan",
         "roll": "23",
+=======
+        "name": "Mohammed Rizwan",
+        "roll": "59",
+        "items": [
+            "Fries"
+        ],
+        "pickup_time": "16:00",
+        "timestamp": "2025-06-15 11:56:33"
+    },
+    {
+        "name": "parvez ",
+        "roll": "63",
+        "items": [
+            "Pasta",
+            "Ice Cream"
+        ],
+        "pickup_time": "12:23",
+        "timestamp": "2025-06-15 11:22:27"
+    },
+    {
+        "name": "parvez ",
+        "roll": "63",
+        "items": [
+            "Pizza"
+        ],
+        "pickup_time": "10:53",
+        "timestamp": "2025-06-15 10:54:49"
+    },
+    {
+        "name": "parvez ",
+        "roll": "63",
+        "items": [
+            "Pizza"
+        ],
+        "pickup_time": "10:53",
+        "timestamp": "2025-06-15 10:53:58"
+    },
+    {
+        "name": "parvez ",
+        "roll": "63",
+        "items": [
+            "Pizza"
+        ],
+        "pickup_time": "10:53",
+        "timestamp": "2025-06-15 10:53:25"
+    },
+    {
+        "name": "parvez ",
+        "roll": "63",
+        "items": [
+            "Pizza",
+            "Ice Cream"
+        ],
+        "pickup_time": "15:54",
+        "timestamp": "2025-06-15 10:51:48"
+    },
+    {
+        "name": "parvez ",
+        "roll": "63",
+        "items": [
+            "Pizza",
+            "Ice Cream"
+        ],
+        "pickup_time": "15:54",
+        "timestamp": "2025-06-15 10:51:31"
+    },
+    {
+        "name": "parvez ",
+        "roll": "63",
+        "items": [
+            "Pizza",
+            "Ice Cream"
+        ],
+        "pickup_time": "15:54",
+        "timestamp": "2025-06-15 10:51:15"
+    },
+    {
+        "name": "parvez ",
+        "roll": "63",
+        "items": [
+            "Pizza",
+            "Ice Cream"
+        ],
+        "pickup_time": "15:54",
+        "timestamp": "2025-06-15 10:50:38"
+    },
+    {
+        "name": "parvez ",
+        "roll": "63",
+        "items": [
+            "Pizza",
+            "Ice Cream"
+        ],
+        "pickup_time": "15:54",
+        "timestamp": "2025-06-15 10:49:58"
+    },
+    {
+        "name": "parvez ",
+        "roll": "63",
+        "items": [
+            "Pizza",
+            "Pasta",
+            "Vada Pav"
+        ],
+        "pickup_time": "01:30",
+        "timestamp": "2025-06-15 10:47:27"
+    },
+    {
+        "name": "parvez ",
+        "roll": "63",
+        "items": [
+            "Pizza",
+            "Pasta",
+            "Burger",
+            "Chai"
+        ],
+        "pickup_time": "10:34",
+        "timestamp": "2025-06-15 10:46:23"
+    },
+    {
+        "name": "parvez ",
+        "roll": "63",
+        "items": [
+            "Pizza",
+            "Pasta",
+            "Burger",
+            "Chai"
+        ],
+        "pickup_time": "10:34",
+        "timestamp": "2025-06-15 10:45:25"
+    },
+    {
+        "name": "parvez ",
+        "roll": "63",
+        "items": [
+            "Pizza",
+            "Pasta",
+            "Burger",
+            "Chai"
+        ],
+        "pickup_time": "10:34",
+        "timestamp": "2025-06-15 10:45:11"
+    },
+    {
+        "name": "parvez ",
+        "roll": "63",
+        "items": [
+            "Pizza",
+            "Pasta",
+            "Burger",
+            "Chai"
+        ],
+        "pickup_time": "10:34",
+        "timestamp": "2025-06-15 10:44:13"
+    },
+    {
+        "name": "parvez ",
+        "roll": "63",
+        "items": [
+            "Pizza",
+            "Pasta",
+            "Burger",
+            "Chai"
+        ],
+        "pickup_time": "10:34",
+        "timestamp": "2025-06-15 10:41:00"
+    },
+    {
+        "name": "parvez ",
+        "roll": "63",
+        "items": [
+            "Pizza",
+            "Pasta",
+            "Burger",
+            "Chai"
+        ],
+        "pickup_time": "10:34",
+        "timestamp": "2025-06-15 10:34:49"
+    },
+    {
+        "name": "parvez ",
+        "roll": "63",
+        "items": [
+            "Pizza",
+            "Fries"
+        ],
+        "pickup_time": "10:39",
+        "timestamp": "2025-06-15 09:38:44"
+    },
+    {
+        "name": "sufiyan",
+        "name": "rehmath",
+
+        "roll": "345",
+>>>>>>> 0ef0556f919ece7265e6425cd1fb102295fec590
         "items": [
             "Burger",
             "Chai"
         ],
+<<<<<<< HEAD
         "pickup_time": "13:30",
         "timestamp": "2025-06-15 13:35:06",
         "total_price": 70
@@ -134,5 +331,176 @@
         "pickup_time": "16:31",
         "timestamp": "2025-06-15 12:27:49",
         "total_price": 35
+=======
+        "pickup_time": "15:00",
+        "timestamp": "2025-06-15 10:58:49",
+        "total_price": 70
+    },
+    {
+        "name": "syed faizan ",
+        "roll": "345",
+        "items": [
+            "Pasta",
+            "Fries",
+            "Egg Puff"
+        ],
+        "pickup_time": "13:44",
+        "timestamp": "2025-06-15 10:41:49"
+    },
+    {
+        "name": "syett ",
+        "roll": "234u84",
+        "items": [
+            "Pasta"
+        ],
+        "pickup_time": "16:30",
+        "timestamp": "2025-06-14 00:28:21"
+    },
+    {
+        "name": "owais",
+        "roll": "389",
+        "items": [
+            "Pizza",
+            "Fries"
+        ],
+        "pickup_time": "13:25",
+        "timestamp": "2025-06-14 00:25:51"
+    },
+    {
+        "name": "yunus",
+        "roll": "389",
+        "items": [
+            "Pasta",
+            "Burger",
+            "Chai",
+            "Noodles"
+        ],
+        "pickup_time": "14:20",
+        "timestamp": "2025-06-14 00:18:39"
+    },
+    {
+        "name": "erica",
+        "roll": "23",
+        "items": [
+            "Pizza"
+        ],
+        "pickup_time": "11:11",
+        "timestamp": "2025-06-13 22:09:26"
+    },
+    {
+        "name": "rehmath",
+        "roll": "34",
+        "items": [
+            "Pizza"
+        ],
+        "pickup_time": "10:52",
+        "timestamp": "2025-06-13 21:51:43"
+    },
+    {
+        "name": "afifa",
+        "roll": "16",
+        "items": [
+            "Pizza",
+            "Burger",
+            "Chai",
+            "Maggi"
+        ],
+        "pickup_time": "12:50",
+        "timestamp": "2025-06-13 21:46:14"
+    },
+    {
+        "name": "rizwan",
+        "roll": "789",
+        "items": [
+            "Pizza",
+            "Chai",
+            "Colddrinks"
+        ],
+        "pickup_time": "13:10",
+        "timestamp": "2025-06-13 16:41:32"
+    },
+    {
+        "name": "jaku",
+        "roll": "23",
+        "items": [
+            "Pizza",
+            "Fries"
+        ],
+        "pickup_time": "10:41",
+        "timestamp": "2025-06-13 16:37:12"
+    },
+    {
+        "name": "waseem",
+        "roll": "98",
+        "items": [
+            "Pizza"
+        ],
+        "pickup_time": "15:38",
+        "timestamp": "2025-06-13 16:34:54"
+    },
+    {
+        "name": "nawzx",
+        "roll": "290",
+        "items": [
+            "Chai",
+            "Fries"
+        ],
+        "pickup_time": "11:34",
+        "timestamp": "2025-06-13 16:32:57"
+    },
+    {
+        "name": "nwz",
+        "roll": "78",
+        "items": [
+            "Pizza"
+        ],
+        "pickup_time": "17:31",
+        "timestamp": "2025-06-13 16:31:31"
+    },
+    {
+        "name": "sufiyan",
+        "roll": "789",
+        "items": [
+            "Pizza",
+            "Pasta",
+            "Colddrinks",
+            "Ice Cream",
+            "Fries"
+        ],
+        "pickup_time": "11:14",
+        "timestamp": "2025-06-13 16:31:27"
+    },
+    {
+        "name": "xyz",
+        "roll": "67",
+        "items": [
+            "Chai",
+            "Colddrinks"
+        ],
+        "pickup_time": "12:20",
+        "timestamp": "2025-06-13 16:31:16"
+    },
+    {
+        "name": "nwz",
+        "roll": "78",
+        "items": [
+            "Pizza"
+        ],
+        "pickup_time": "17:31",
+        "timestamp": "2025-06-13 16:30:49"
+    },
+    {
+        "name": "xyz",
+        "roll": "67",
+        "items": [
+            "Chai",
+            "Colddrinks"
+        ],
+        "pickup_time": "12:20",
+        "timestamp": "2025-06-13 16:15:44"
+=======
+        "pickup_time": "13:55",
+        "timestamp": "2025-06-15 09:51:44"
+>>>>>>> 0ef0556f919ece7265e6425cd1fb102295fec590
     }
 ]

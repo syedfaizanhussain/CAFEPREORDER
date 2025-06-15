@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head><link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}"></head>
+<body>
+    <header><h1>Order History (Last 50 Orders)</h1></header>
+    <ul>
+        {% for order in orders %}
+  <div>
+    <strong>Name:</strong> {{ order['name'] }}<br>
+    <strong>Items:</strong> {{ order['items'] | join(', ') }}<br>
+    <strong>Pickup Time:</strong> {{ order['pickup_time'] }}<br>
+    <strong>Time Placed:</strong> {{ order['timestamp'] }}<br>
+    <hr>
+  </div>
+{% endfor %}
+
+    </ul>
+</body>
+</html>
