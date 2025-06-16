@@ -143,7 +143,7 @@ def confirm():
 # @app.route('/confirm', methods=['POST'])
 # def confirm():
 #     name = request.form['name']
-#     roll = request.form['roll']
+#     roll = request.form['roll']   
 #     items = request.form.getlist('items')
 #     pickup_time = request.form['pickup_time']
 

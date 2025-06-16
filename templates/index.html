@@ -12,7 +12,7 @@
     </header>
     <div class="big-warning">Canteen Closes at 5PM. Orders open again at 7AM.</div>
 
-    <form method="POST" action="/confirm">
+    <!-- <form method="POST" action="/confirm">
         <input type="text" name="name" placeholder="Your Name" required><br>
         <input type="text" name="roll" placeholder="Roll Number" required><br><br>
 
@@ -25,7 +25,33 @@
                 </label>
             </div>
             {% endfor %}
+        </div> -->
+
+
+
+    <form method="POST" action="/confirm">
+        <div class="form-row">
+            <!-- <input type="text" name="name" placeholder="Your Name" required>
+            <input type="text" name="roll" placeholder="Roll Number" required> -->
+            <!-- modify -->
+            <div class="form-container">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="text" name="roll" placeholder="Roll Number" required>
+            </div>
+
+            <div class="menu">
+                {% for item in menu %}
+                <div class="item">
+                    <label class="menu-item">
+                        <input type="checkbox" name="items" value="{{ item }}">
+                        {{ item }} - ₹{{ prices[item] }}
+                    </label>
+                </div>
+                {% endfor %}
+            </div>
         </div>
+        <!-- Keep the rest of your form as it is -->
+
 
         <br>
         <label>Pickup Time:</label>
